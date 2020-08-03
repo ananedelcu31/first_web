@@ -5,6 +5,15 @@
 /*----------------- PRINCIPIO DE LA PAGINA PRINCIPAL ------------------ */
 
 @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
+@import "lesshat";
+
 
 @font-face{
     font-family: HomemadeApple;
@@ -13,11 +22,23 @@
     
     }
 
+@font-face{
+        font-family: open_sans;
+        src: url(fonts/letra1.ttf);
+        font-style: regular;
+        
+    }
+@font-face{
+    font-family: caveat;
+    src: url(fonts/AmaticSC-Regular.ttf);
+    font-style: normal;
+}
 .titulo{
-    font-family: HomemadeApple;
+    font-family: caveat;
     text-align: center;
-    font-size: 40px;
-    padding: 70px;
+    font-size: 100px;
+    font-weight: 1px;
+    padding: 40px;
     margin: 10px;
     position: relative;
     color: white; 
@@ -82,11 +103,27 @@
   }
 
 /*--------------------- CONTENIDO DE LA PAGINA ------------------------*/
-
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    display: block;
+    margin: 10px;
+    padding: 30px;
+    font-size: 50px;
+    font-style: initial;
+    text-align: center;
+    background-color: gray;
+}
 .box a img{
-    display:block;
     padding: 10px;
-    margin: 50px;
+    margin: 70px;
     border: black 1px solid;
+    height: 300px;
+    width: 200px;
+    text-align: center;
+    transition: transform 1s;
 }
 
+.box a img:hover{
+    transform: scale(1.2);
+}
