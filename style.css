@@ -67,14 +67,15 @@
 .menu a{
     text-decoration: none;
     width: 100px;
-    display: block;
     padding: 15px;
     margin: 10px;
     font-size: 17px;
-    font-family: Arial, Helvetica, sans-serif;
-    transition: 0.4s;
-    color: #fff;
     position: relative;
+    font: normal normal normal 21px/1.4em oswald-medium,oswald,sans-serif;
+    transition: color 0.4s ease 0s;
+    color: #FAFAFA;
+    white-space: nowrap;
+    display: inline-block;
 }
 
 .menu a:hover{
@@ -83,7 +84,7 @@
 }
 
 .todo{
-    background-image: url("images/foto.jpg");
+    background-image: url("images/night.jpg");
     background-size: 100% 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -128,7 +129,7 @@ h2{
     transform: scale(1.2);
 }
 
-.todo1{
+#contenido{
     background-image: url("images/foto4.jpg");
     background-size: 100% 100%;
     background-attachment: fixed;
