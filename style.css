@@ -111,35 +111,37 @@
 
 /*--------------------- CONTENIDO DE LA PAGINA ------------------------*/
 h2{
-    font-family: caveat;
+    font: normal normal normal 30px/1.4em spinnaker,sans-serif;
     text-transform: uppercase;
     display: block;
     margin: 10px;
     padding: 30px;
-    font-size: 50px;
+    font-size: 40px;
     font-style: initial;
     text-align: center;
-    background-color: gray;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: 0 0;
+    letter-spacing: 0.2em;
 }
 .box a img{
     padding: 10px;
-    margin: 70px;
+    margin: 30px;
     border: black 1px solid;
     height: 300px;
     width: 200px;
     text-align: center;
     transition: transform 1s;
+    float: left;
+
 }
 
 .box a img:hover{
     transform: scale(1.2);
 }
 
-#contenido{
-    background-image: url("images/foto4.jpg");
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    margin: 0px;
-    padding: 0px;
-}
+
+
