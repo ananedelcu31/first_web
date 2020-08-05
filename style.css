@@ -126,15 +126,15 @@ h2{
     text-align: center;
 }
 .img{
-    margin-right: 50px;
-    margin-top: 50px;
-    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
     display: inline-table;
     height: 300px;
     width: 200px;
     text-align: center;
     transition: transform 1s;
-    float: left;
+    float: initial;
     -webkit-box-shadow: 0 10px 6px -6px #777;
     -moz-box-shadow: 0 10px 6px -6px #777;
     box-shadow: 0 10px 6px -6px #777;
@@ -159,21 +159,43 @@ hr{
 
 .contenedor1{
     background-color: #FFFAFA;
+    
+}
+
+.flex{
+    display: flex;
+}
+
+.text-center{
+    text-align: center;
+}
+.columna{
+    padding: 10px;
+    scroll-margin-inline: 10px;
     margin: auto;
 }
 
-.tabla{
-    margin: auto;
-}
-
-.libro{
+span{
     font-style: italic;
     letter-spacing: 1.6px;
-    line-height: 1.5em;
-    text-align: center;
     font: normal normal normal 16px/1.4em 'palatino linotype',serif;
     color: #3D3D3D;
-    visibility: inherit;
-    margin-left: 30px;
-
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
   }
+
+  .boton-compra{
+    
+    background-color: transparent;
+    border: solid rgba(110, 110, 110, 1) 1px;
+    color: rgba(110, 110, 110, 1);
+      
+  }
+
+  .boton-compra:hover{
+    border-color: rgba(61, 61, 61, 1);
+    color: white;
+    background-color: rgba(61, 61, 61, 1);
+
+}
