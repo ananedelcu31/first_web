@@ -50,8 +50,8 @@
     font-size: 30px;
 	color: #fff;
     position: relative;
-    padding: 60px;
-    margin: 10px;
+    padding:50px;
+   
 }
 
 .menu ul{
@@ -94,7 +94,7 @@
     background-size: 100% 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    margin: 0px;
+    margin-bottom: 0px;
     padding: 0px;
    }
 
@@ -114,38 +114,66 @@ h2{
     font: normal normal normal 30px/1.4em spinnaker,sans-serif;
     text-transform: uppercase;
     display: block;
-    margin-top: 50px;
-    padding: 1px;
     font-size: 40px;
     color: black;
+    padding: 30px;
     font-style: initial;
     text-align: center;
     vertical-align: baseline;
     background: 0 0;
     letter-spacing: 0.2em;
+    padding: 30px;
+    text-align: center;
 }
 .img{
-    padding: 10px;
-    margin-top: 100px;
-    margin-left: 200px;
-    border: black 1px solid;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-left: 20px;
+    display: inline-table;
     height: 300px;
     width: 200px;
     text-align: center;
     transition: transform 1s;
     float: left;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
 
 }
 
+.img:hover{
+    filter: brightness(90%);
+}
 
 hr{
     transform-origin: center 1px;
-    margin-left: 320px;
+    margin-left: 220px;
     margin-top: 10px;
-    width: 600px;
+    width: 800px;
     color: black;
     background-color: black;
     height: 0.2px;
     border-color: black;
+
 }
 
+.contenedor1{
+    background-color: #FFFAFA;
+    margin: auto;
+}
+
+.tabla{
+    margin: auto;
+}
+
+.libro{
+    font-style: italic;
+    letter-spacing: 1.6px;
+    line-height: 1.5em;
+    text-align: center;
+    font: normal normal normal 16px/1.4em 'palatino linotype',serif;
+    color: #3D3D3D;
+    visibility: inherit;
+    margin-left: 30px;
+
+  }
