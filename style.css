@@ -115,22 +115,22 @@ h2{
     text-transform: uppercase;
     display: block;
     font-size: 30px;
-    color: black;
-    padding: 30px;
+    margin-top: 50px;
+    color: #3D3D3D;
     font-style: initial;
     text-align: center;
     vertical-align: baseline;
     background: 0 0;
     letter-spacing: 0.2em;
-    padding: 30px;
-    text-align: center;
+    padding: 40px;
 }
 .img{
     margin-top: 20px;
     display: inline-table;
-    height: 300px;
-    width: 200px;
+    height: 335px;
+    width: 220px;
     text-align: center;
+    object-fit: cover;
     transition: transform 1s;
     float: initial;
     -webkit-box-shadow: 0 10px 6px -6px #777;
@@ -143,26 +143,26 @@ h2{
     filter: brightness(90%);
 }
 
-.linea{
+hr{
     transform-origin: center 0.5px;
-    margin-left: 260px;
-    margin-top: 10px;
-    width: 750px;
-    color: black;
+    width: 920px;
+    height: 0.5px;
     background-color: black;
-    border-color: black;
+    border: solid black 0.05px;
+    margin: auto;
+    display: inline-table;
     
 }
 
 .contenedor1{
-    background-color: #FFFAFA;
+    background-color:#f9f9f9;
     text-align: center;
 }
 
 .columna{
     padding: 26px;
+    margin: auto;
     display: inline-table;
-   
 
 }
 
@@ -178,4 +178,38 @@ h2{
 
 }
 
+
+.linea-libro{
+    transform-origin: center 0.5px;
+    width: 210px;
+    height: 0.5px;
+    background-color: black;
+    border: black;
+    margin: auto;
+    margin-top: 30px;
+    border: solid black 0.05px;
+}
+ 
+.boton{
+    background-color: transparent;
+    border: solid rgba(110, 110, 110, 1) 1px;
+    text-align: initial;
+    display: inline-table;
+    align-items: center;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+    font-family: Arial,Helvetica,sans-serif;
+    text-decoration: none;
+    color:  #6E6E6E;
+}
+
+.boton:hover{
+    color: white;
+    background-color:  #808080;
+    border: solid rgba(110, 110, 110, 1) 1px;
+}
+.poemas{
+    background-color: rgba(0,0,0,0.4);
+}
 
