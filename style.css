@@ -14,13 +14,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
 @import "lesshat";
 
-
 @font-face{
-    font-family: HomemadeApple;
-    src: url(fonts/letra.ttf);
-    font-style: regular;
-    
-    }
+        font-family: HomemadeApple;
+        src: url(fonts/letra.ttf);
+        font-style: regular;
+        
+}
 
 @font-face{
         font-family: open_sans;
@@ -50,7 +49,7 @@
     font-size: 30px;
 	color: #fff;
     position: relative;
-    padding:50px;
+    padding:30px;
    
 }
 
@@ -90,25 +89,24 @@
 }
 
 .todo{
-    background-image: url("images/night.jpg");
+    background-image: url("images/imagen5.jpg");
     background-size: 100% 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
     margin-bottom: 0px;
     padding: 0px;
+    opacity: 0.5px;
    }
 
-.todo::after {
-    content:"";
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    background:rgba(0,0,0,0.6);
-    z-index:-1;
-  }
 
+  .demas{
+    background-image: url("images/foto8.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin-bottom: 0px;
+    padding: 0px;
+  }
 /*--------------------- CONTENIDO DE LA PAGINA ------------------------*/
 h2{
     font: normal normal normal 30px/1.4em spinnaker,sans-serif;
@@ -210,6 +208,80 @@ hr{
     border: solid rgba(110, 110, 110, 1) 1px;
 }
 .poemas{
-    background-color: rgba(0,0,0,0.4);
+    background-image: url(images/poemas2.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin-bottom: 0px;
+    padding: 0px;
+    text-align: center;
+
 }
 
+.poema{
+    font: normal normal normal 30px/1.4em spinnaker,sans-serif;
+    text-transform: uppercase;
+    display: inline-table;
+    font-size: 30px;
+    margin-top: 50px;
+    color: white;
+    font-style: initial;
+    text-align: center;
+    background: 0 0;
+    letter-spacing: 0.2em;
+    padding: 40px;
+
+}
+
+.sub-poema{
+    font-style: italic;
+    letter-spacing: 1.6px;
+    font: normal normal normal 16px/1.4em 'palatino linotype',serif;
+    color: white;
+    vertical-align: middle;
+    padding: 8px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.linea-poema{
+    transform-origin: center 0.5px;
+    width: 210px;
+    height: 0.5px;
+    background-color: white;
+    border: white;
+    margin: auto;
+    margin-top: 30px;
+    border: solid white 0.05px;
+}
+
+.linea-poema-principal{
+    transform-origin: center 0.5px;
+    width: 920px;
+    height: 0.5px;
+    background-color: white;
+    border: solid white 0.05px;
+    margin: auto;
+    display: inline-table;
+}
+
+.boton-poema{
+    background-color: transparent;
+    border: solid whitesmoke 1px;
+    text-align: initial;
+    display: inline-table;
+    align-items: center;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+    font-family: Arial,Helvetica,sans-serif;
+    text-decoration: none;
+    color:  white;
+}
+
+.boton-poema:hover{
+    color: black;
+    background-color:  whitesmoke;
+    border: solid white 1px;
+}
