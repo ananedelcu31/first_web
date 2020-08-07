@@ -89,24 +89,15 @@
 }
 
 .todo{
-    background-image: url("images/imagen5.jpg");
+    background-image: url("images/image1.jpg");
     background-size: 100% 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
     margin-bottom: 0px;
     padding: 0px;
-    opacity: 0.5px;
    }
+   
 
-
-  .demas{
-    background-image: url("images/foto8.jpg");
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    margin-bottom: 0px;
-    padding: 0px;
-  }
 /*--------------------- CONTENIDO DE LA PAGINA ------------------------*/
 h2{
     font: normal normal normal 30px/1.4em spinnaker,sans-serif;
@@ -208,7 +199,7 @@ hr{
     border: solid rgba(110, 110, 110, 1) 1px;
 }
 .poemas{
-    background-image: url(images/poemas2.jpg);
+    background-image: url(images/image.png);
     background-size: 100% 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -217,6 +208,7 @@ hr{
     text-align: center;
 
 }
+
 
 .poema{
     font: normal normal normal 30px/1.4em spinnaker,sans-serif;
@@ -284,4 +276,30 @@ hr{
     color: black;
     background-color:  whitesmoke;
     border: solid white 1px;
+}
+
+
+
+.bio{
+    font: normal normal normal 14px 'palatino linotype',serif;
+    color: #3D3D3D;
+    line-height: 1.5em;
+    letter-spacing: 0.08em;
+    text-align: justify;
+    font-size: 14px;
+    width: 200px;
+    height: 390px;
+    display: inline-table;
+   }
+
+.foto{
+    width: 390px;
+    height: 390px;
+    display: inline-table;
+   
+}
+
+.sobremi{
+    background-color:#f9f9f9;
+    text-align: center;
 }
