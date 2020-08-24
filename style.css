@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    opacity:1;
 }
 /*----------------- PRINCIPIO DE LA PAGINA PRINCIPAL ------------------ */
 
@@ -15,7 +16,7 @@
 @import "lesshat";
 
 .toddo{
-    background-image: url(images/daniel-tran-SlebUE2s3Hk-unsplash.jpg);
+    background-image: url(images/dayso-K12fnX2eVzk-unsplash.jpg);
    
 }
 
@@ -196,11 +197,7 @@ hr{
     border: solid rgba(110, 110, 110, 1) 1px;
 }
 .poemas{
-    background-color:white;
-    opacity:0.3;
-    filter:alpha(opacity=60); /* IE < 9.0 */
-   width:100%;
-   height:100%;
+    background-color: rgba(255,255,255,0.4);
     text-align: center;
 
 }
@@ -360,7 +357,7 @@ hr{
 }
 
 .contacto{
-    
+    background-color: rgba(255,255,255,0.4);
     text-align: center;
 }
 
