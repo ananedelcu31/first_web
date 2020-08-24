@@ -14,6 +14,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
 @import "lesshat";
 
+.toddo{
+    background-image: url(images/daniel-tran-SlebUE2s3Hk-unsplash.jpg);
+   
+}
+
 @font-face{
         font-family: HomemadeApple;
         src: url(fonts/letra.ttf);
@@ -88,14 +93,6 @@
     color: black;
 }
 
-.todo{
-    background-image: url("images/image1.jpg");
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    margin-bottom: 0px;
-    padding: 0px;
-   }
    
 
 /*--------------------- CONTENIDO DE LA PAGINA ------------------------*/
@@ -199,12 +196,11 @@ hr{
     border: solid rgba(110, 110, 110, 1) 1px;
 }
 .poemas{
-    background-image: url(images/image.png);
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    margin-bottom: 0px;
-    padding: 0px;
+    background-color:white;
+    opacity:0.3;
+    filter:alpha(opacity=60); /* IE < 9.0 */
+   width:100%;
+   height:100%;
     text-align: center;
 
 }
@@ -216,12 +212,13 @@ hr{
     display: inline-table;
     font-size: 30px;
     margin-top: 50px;
-    color: white;
+    color: black;
     font-style: initial;
     text-align: center;
     background: 0 0;
     letter-spacing: 0.2em;
     padding: 40px;
+    opacity: 1;
 
 }
 
@@ -229,11 +226,12 @@ hr{
     font-style: italic;
     letter-spacing: 1.6px;
     font: normal normal normal 16px/1.4em 'palatino linotype',serif;
-    color: white;
+    color: black;
     vertical-align: middle;
     padding: 8px;
     text-align: center;
     margin-top: 10px;
+    opacity: 1;
 
 }
 
@@ -241,26 +239,30 @@ hr{
     transform-origin: center 0.5px;
     width: 210px;
     height: 0.5px;
-    background-color: white;
-    border: white;
+    background-color: black;
+    border: black;
     margin: auto;
     margin-top: 30px;
-    border: solid white 0.05px;
+    border: solid black 0.05px;
+    opacity: 1;
+
 }
 
 .linea-poema-principal{
     transform-origin: center 0.5px;
     width: 920px;
     height: 0.5px;
-    background-color: white;
-    border: solid white 0.05px;
+    background-color: black;
+    border: solid black 0.05px;
     margin: auto;
     display: inline-table;
+    opacity: 1;
+
 }
 
 .boton-poema{
     background-color: transparent;
-    border: solid whitesmoke 1px;
+    border: solid black 1px;
     text-align: initial;
     display: inline-table;
     align-items: center;
@@ -269,26 +271,44 @@ hr{
     margin-top: 10px;
     font-family: Arial,Helvetica,sans-serif;
     text-decoration: none;
-    color:  white;
+    color:  black;
+    opacity: 1;
+
 }
 
 .boton-poema:hover{
     color: black;
-    background-color:  whitesmoke;
-    border: solid white 1px;
+    background-color:  white;
+    border: solid black 1px;
+    opacity: 1;
+
 }
 
 .sobremi{
-    background-color:#f9f9f9;
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    margin-bottom: 0px;
-    padding: 0px;
-    text-align: center;
     
+    text-align: center;
+    color: white;
 }
 
+.titulo2{
+    font: normal normal normal 30px/1.4em spinnaker,sans-serif;
+    text-transform: uppercase;
+    display: block;
+    font-size: 30px;
+    margin-top: 50px;
+    color: whitesmoke;
+    font-style: initial;
+    text-align: center;
+    vertical-align: baseline;
+    background: 0 0;
+    letter-spacing: 0.2em;
+    padding: 40px;
+}
+
+.barra{
+    background-color: white;
+    border-color: white;
+}
 .main{
     background-size: 100% 100%;
     overflow:hidden;
@@ -320,7 +340,7 @@ hr{
 
 .bio{
     font: normal normal normal 16px/1.4em 'palatino linotype',serif;
-    color: #3D3D3D;
+    color: white;
     line-height: 1.5em;
     letter-spacing: 0.08em;
     text-align: justify;
@@ -340,18 +360,13 @@ hr{
 }
 
 .contacto{
-    background-color: #1c1c1c;
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    margin-bottom: 0px;
-    padding: 0px;
+    
     text-align: center;
 }
 
 #contacto{
     
-    color: white;
+    color: black;
 
 }
 
@@ -359,8 +374,8 @@ hr{
     transform-origin: center 0.5px;
     width: 920px;
     height: 0.5px;
-    background-color: white;
-    border: solid white 0.05px;
+    background-color: black;
+    border: solid black 0.05px;
     margin: auto;
     display: inline-table;
 }
@@ -369,7 +384,7 @@ hr{
     letter-spacing: 0.1em;
     line-height: 1.5em;
     font: normal normal normal 16px/1.4em 'palatino linotype',serif;
-    color: white;
+    color: black;
     text-align: center;
     display: inline-table;
     margin-block-start: 1em;
@@ -380,7 +395,7 @@ hr{
 }
 
 .color_18{
-    color: yellow;
+    color: black;
     display: inline-table;
 }
 
@@ -388,7 +403,7 @@ hr{
     letter-spacing: 0.1em;
     line-height: normal;
     font: normal normal normal 16px/1.4em 'palatino linotype',serif;
-    color: white;
+    color: black;
     text-align: left;
     display: inline-table;
     margin-top: 10px;
